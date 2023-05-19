@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Analytics.debug(true)
 //        CleverTap.setDebugLevel(CleverTapLogLevel.debug.rawValue+1)
         
-        let config = AnalyticsConfiguration(writeKey: "Yhppg7GRbCW2jQ27Pu4EzvIxDTMqH2J0")
+        let config = AnalyticsConfiguration(writeKey: "your_write_key")
         config.use(SEGCleverTapIntegrationFactory())
         config.trackApplicationLifecycleEvents
         Analytics.setup(with: config)
