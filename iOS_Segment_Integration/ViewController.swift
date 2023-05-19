@@ -30,7 +30,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func loginButtonClicked(_ sender: Any) {
-        let config = AnalyticsConfiguration(writeKey: "Yhppg7GRbCW2jQ27Pu4EzvIxDTMqH2J0")
+        let config = AnalyticsConfiguration(writeKey: "your_write_key")
         config.use(SEGCleverTapIntegrationFactory())
         Analytics.setup(with: config)
         
