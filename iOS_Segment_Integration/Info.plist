@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>CleverTapAccountID</key>
+	<string>TEST-W8W-6WR-846Z</string>
+	<key>CleverTapToken</key>
+	<string>TEST-206-0b0</string>
 </dict>
 </plist>
